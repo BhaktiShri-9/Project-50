@@ -1,0 +1,73 @@
+1.Ping Pong Game=
+
+Variables = var sprite(name)
+createSprite = createSprite(x,y,width,height)
+function = ex:functionDraw(){};
+
+2.Trex Game=
+
+background = background("pink(colour)")
+if condition = if(condition){};
+function preload(){we load images}
+function setup(){we create sprites or animation etc...}
+to give random position = Math.round(random,1,6)
+gameStates = ex: wait,play,end
+groups = sprite Group=new Group();
+sound = sound.play();
+screen compartibility = windowWidth,WindowHeight
+to move any key = keyDown(UP_ARROW){};
+
+3.Pirate Invasion & Trajectory Game=
+
+array = var[]
+push = adding .ex: push();
+pop = removing .ex: pop();
+image = image(var Img,x,y,w,h);
+        background(varImg);
+physics Engine code = matter.js library
+3 imp modules = Engine,world,bodies
+constructer = constructer(x,y,w,h,angle)
+arc = arc(x,y,w,h,PI,TWO_PI)
+to add in a function  = World.add(world,body);
+to set angle = Matter.Body.SetAngle(this.body,angle)=matter.js
+wil move according to the mouse = mouseX or mouseY
+to create outerline = stroke("purple")
+to fill inside any text = fill("pink")
+restitution = bounciness
+friction = opposite force
+name spacing = constEngine = Matter.Engine
+static = isStatic:true :- it'll move
+         isStatic:false :- it'll not move
+
+4.Multiplayer Car Racing Game=
+
+database = firebase is a database
+2 types of database = cloud and local
+                      *cloud is online
+                      *local is offline
+2 types of operator = write and read
+                      *write will write from database
+                      *read will read from database
+.ref = refer to location in database
+.on = it keeps listening to the changes
+data.val = used as a read operator
+to show any error = showError()
+there are 3 classes = Form,Game,Player
+                      *form is a kind of front page
+                      *player contains informations
+                      *game will contains every function or etc...related to game and contains Gamestates
+there are 3 gameStates = Wait,Play,End
+                         *In wait the gamestate value will be 0 and there we write code of what we wanna do before the game starts
+                         *In play the database value will be 1 and there we write code of what we wanna do after the game starts
+                         *In end the database value will be 2 and there we write code of what we wanna do after the game Over(when we lose the game or win the game)
+gameCamera = to view game  from different angles/how to experience the game
+overlap = will check collision with every element and it's a function too
+static = call as a name
+.class = to give style
+forloop = for(vari=0:i>10:i++){}
+objects,values = it gives 4 gap
+sweetAlert = a customized function
+
+
+
+
